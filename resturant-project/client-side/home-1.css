@@ -1,0 +1,206 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.featured-outer {
+  border: 0px solid red;
+  padding: 7px;
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured-icon {
+  border: 0px solid black;
+  width: 205px;
+  height: 205px;
+  padding: 7px;
+  justify-items: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 100px 0px 100px 0px;
+  font-size: 100px;
+  transition: 1.5s;
+}
+
+.featured-icon:hover {
+  transform: rotate(360deg);
+}
+
+/* ✅ FIXED: Display featured food items in three columns */
+
+.featured-outer1 {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+  gap: 30px; /* spacing between items */
+}
+
+.featured-img {
+  width: 100%;
+  transition: 1s;
+}
+
+.featured-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.featured-outer1 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.featured-img:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  border: 0px solid #7bff00;
+  width: 85%;
+  display: flex;
+  height: 380px;
+  box-shadow: 9px 9px 10px 1px grey;
+}
+
+.content .left {
+  border: 0px solid red;
+  margin: 0;
+  width: 2000pc;
+  height: 100%;
+}
+
+.content .right {
+  border: 0px solid green;
+  height: 100%;
+  width: auto;
+  position: relative;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.content .left img {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+#Menu ul li ul li {
+  width: 265px;
+}
+
+.h1 {
+  color: red;
+  text-align: center;
+}
+
+.emailbox1 {
+  padding: 0;
+  background-size: cover;
+  height: 20pc;
+  width: 100%;
+  background-image: url(photo/slider1.jpg);
+  width: auto;
+  height: 30pc;
+  position: relative;
+}
+
+.logout {
+  background-image: url(photo/beautiful.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 30pc;
+  position: relative;
+}
+
+.emailbox2 {
+  width: 10pc;
+  margin-top: 50px;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+.emailbox3 {
+  border: 1px solid yellow;
+  box-shadow: 5px 5px 10px 1px grey;
+  border-radius: 100px 0px 100px 0px;
+  background-color: transparent;
+  justify-self: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10pc;
+  margin-right: 20px;
+  padding: 30px;
+  align-items: center;
+  align-self: center;
+  position: relative;
+}
+
+.emailbox3 input {
+  border-radius: 100px;
+  padding: 5px;
+  border-color: yellow;
+}
+
+.emailbox3 .submit {
+  background-color: yellow;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset -5px -5px -5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.foot-panel {
+  background-color: rgba(4, 77, 34, 0.877);
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.foot-panel-2 {
+  background-color: rgba(0, 128, 53, 0.877);
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul a {
+  display: block;
+  margin-top: 10px;
+  color: #dddddd;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.foot-panel-3 {
+  height: 70px;
+  background-color: #222f3d;
+  color: white;
+  border-top: 0.5px solid white;
+}
